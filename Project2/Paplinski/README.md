@@ -1,0 +1,3 @@
+Design for muultilpier descriibed by Paplinski.
+
+The top-level structure for Paplinski multiplier can be shown with the data path and the control path. Control path is responsible to decide the change of states and hence comprises of the counter unit. The counter produces an output ‘ZI’ which is used to synchronize the data path. If ‘ZI’ is high, data path is active, and data is driven. Data path comprises of D-register, A-register, Q-register and the ALU unit. D and Q registers are used to store the multiplicand and multiplier input data and ALU unit does + or – operations required for the multiplication. ‘Op’ is a control data which controls which registers need to be active for the multiplication operation to complete.
