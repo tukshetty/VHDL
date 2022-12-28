@@ -1,8 +1,3 @@
---Group2
-	-- Shetty
-	-- Dobariya
-	-- Fan
-
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE IEEE.NUMERIC_STD.all;
